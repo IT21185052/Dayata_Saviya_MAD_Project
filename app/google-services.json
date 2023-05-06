@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "948300557403",
+    "project_id": "buttons-d0499",
+    "storage_bucket": "buttons-d0499.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948300557403:android:72d4f244d7287e4f75637e",
+        "android_client_info": {
+          "package_name": "com.example.a2buttons"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948300557403-l25p02vmolkq55d7l517mblbh9n7aa2b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcC-5ezwNYjGeIkuYZx6dcYezRVmpXDAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948300557403-l25p02vmolkq55d7l517mblbh9n7aa2b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drae"
+    tools:context=".Activities.MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="357dp"
+        android:layout_height="169dp"
+        android:layout_marginTop="188dp"
+        android:text="We have decided to make a financial
+        donation for your economic development.
+        It is being given due to the current crisis in the country.However, these terms are provided subject to your agreement."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp" />
+
+    <Button
+        android:id="@+id/nonb1"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#00BCD4"
+        android:text="Disagree"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ab1"
+        tools:ignore="MissingConstraints"></Button>
+
+    <Button
+        android:id="@+id/ab1"
+        android:layout_width="180dp"
+        android:layout_height="53dp"
+        android:layout_marginEnd="212dp"
+        android:layout_marginBottom="80dp"
+        android:backgroundTint="#00BCD4"
+        android:text="agree"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"></Button>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="Agree"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="27dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
