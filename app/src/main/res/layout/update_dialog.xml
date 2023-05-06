@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/drawnew"
+    android:padding="10dp">
+
+    <EditText
+        android:id="@+id/etEmpName"
+        android:layout_width="362dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="156dp"
+        android:ems="10"
+        android:hint="BANK NAME"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/etEmpAge"
+        android:layout_width="362dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="ACCOUNT HOLDER NAME"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/etEmpBank"
+        android:layout_width="362dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="BRANCH NAME"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etBankCode"
+        android:layout_width="362dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="BRANCH CODE"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etAccountType"
+        android:layout_width="362dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="ACCOUNT TYPE(e.g:- saving,current)"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etEmpSalary"
+        android:layout_width="362dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="ACCOUNT NUMBER"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnUpdateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Update Data" />
+
+
+</LinearLayout>
