@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sample1</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="emp_salary">Emp Salary</string>
+    <string name="emp_age">Emp Age</string>
+    <string name="emp_name">Emp Name</string>
+    <string name="emp_id">Emp id</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_Register">Register</string>
+    <string name="sub_textView">
+        Nice to meet you! Come join our community!
+        <br>If you already have an account, Please Login.</br>
+    </string>
+</resources>
