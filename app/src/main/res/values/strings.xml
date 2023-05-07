@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dayata Saviya</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="emp_salary">Emp Salary</string>
+    <string name="emp_age">Emp Age</string>
+    <string name="emp_name">Emp Name</string>
+    <string name="emp_id">Emp id</string>
+
+    <string name="col1">Email</string>
+    <string name="col2">Ticket id</string>
+    <string name="col3">Ticket Price</string>
+    <string name="row1name"></string>
+    <string name="row1price"></string>
+    <string name="row1id"></string>
+</resources>
